@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: dodgerblue; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: dodgerblue; 
+  }
+
+html body{
+    overflow-x: hidden;
+}
+
+.navprat{
+    background-color: black;
+    border: 2px solid black;
+    padding: 20px 0px;
+}
+
+.navlinker{
+    letter-spacing: 2px;
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+    padding: 5px 20px !important;
+    margin: 0px 50px;
+    border-radius: 30px;
+    transition: background-color 0.4s;
+}
+
+.navlinker:hover{
+    background-color: dodgerblue;
+}
+
+.banner{
+    height: 100vh;
+    background-color: #030303;
+    position: relative;
+    padding-top: 120px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.banner-left{
+    margin: auto 0;
+    padding-left: 50px;
+    color: white;
+    letter-spacing: 2px;
+    position: relative;
+    top: 15px;
+}
+
+.banner-left-1{
+    font-size: 30px;
+    font-family: 'Fredoka', sans-serif;
+    margin: 10px 0;
+}
+
+.banner-left-2{
+    font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 10px 0;
+}
+
+.banner-left-3{
+    font-size: 30px;
+    font-family: 'Fredoka', sans-serif;
+    margin: 10px 0;
+}
+
+.banner-img{
+    border-radius: 100px;
+    position: relative;
+    left: 50px;
+}
+
+.colourer{
+    color: dodgerblue;
+}
+
+.banner-btn{
+    border-radius: 50px;
+    padding: 5px 20px;
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+    margin-top: 30px;
+    font-family: 'Fredoka', sans-serif;
+    letter-spacing: 2px;
+}
+
+.main-1{
+    background-color: #030303;
+    padding: 0px 100px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.bluecontainer{
+    background-color: white;
+    height: auto;
+    font-size: 17px;
+    padding:30px;
+    color: black;
+    border-radius: 30px;
+    background: radial-gradient(
+        100% 70% at 0% 0%,
+        rgba(255, 255, 255, 0.425) 0%,
+        rgba(255, 255, 255, 0.103) 80%
+      );
+      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+      backdrop-filter: blur(100px);
+      color: white;
+      min-height: 100px;
+      letter-spacing: 1px;
+}
+.heading{
+    color: white;  
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+}
+
+.skill-btn{
+    border-radius: 30px;
+    padding: 5px 20px;
+    margin: 5px 0;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    letter-spacing: 1px;
+    cursor: default !important;
+}
+
+.centered{
+    text-align: center;
+}
+
+.footer{
+    padding: 50px 110px;
+    background-color: #030303;
+}
+
+.footer .heading{
+    text-align: left;
+    padding-top: 5px;
+}
+
+.footer-left{
+    margin: auto 0;
+}
+
+.footer-right-inside{
+    font-size: 20px;
+}
+
+.footer-right-inside i{
+    margin-right: 20px;
+    color: dodgerblue;
+}
+
+.footer-right-inside a{
+    text-decoration: none;
+    color: white;
+}
