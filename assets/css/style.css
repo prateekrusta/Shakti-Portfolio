@@ -193,9 +193,10 @@ html body{
     .banner-left{
         position: absolute;
         top: 75%;
-        left: 50%;
+        left: 52%;
         transform: translate(-50%, -50%);
         text-align: center;
+        padding-left: 0px;
     }
     .banner-img{
         position: absolute;
@@ -212,7 +213,7 @@ html body{
         font-size: 3em;
     }
     .banner-btn{
-        font-size: 1.4em;
+        font-size: 1.6em;
     }
     .footer-right-inside{
         font-size: 1.6em;
@@ -223,7 +224,7 @@ html body{
     .banner-left{
         position: absolute;
         top: 75%;
-        left: 50%;
+        left: 52%;
         transform: translate(-50%, -50%);
         text-align: center;
     }
@@ -244,13 +245,16 @@ html body{
     .iframer{
         width: 450px;
     }
+    .banner-btn{
+        font-size: 1.4em;
+    }
 }
 
 @media screen and (max-width:500px) {
     .banner-left{
         position: absolute;
         top: 65%;
-        left: 46%;
+        left: 52%;
         transform: translate(-50%, -50%);
         text-align: center;
     }
