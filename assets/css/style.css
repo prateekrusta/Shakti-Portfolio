@@ -250,14 +250,14 @@ html body{
     .banner-left{
         position: absolute;
         top: 65%;
-        left: 47.5%;
+        left: 46%;
         transform: translate(-50%, -50%);
         text-align: center;
     }
     .banner-img{
         position: absolute;
         top: 25%;
-        left: 54%;
+        left: 52%;
         width: 150px;
         transform: translate(-50%, -50%);
     }
