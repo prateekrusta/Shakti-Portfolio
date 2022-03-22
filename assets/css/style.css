@@ -30,13 +30,14 @@ html body{
 
 .navprat{
     background-color: black;
-    border: 2px solid black;
+    box-shadow: 0px 15px 10px -15px #111;
     padding: 20px 0px;
 }
 
 .navlinker{
     letter-spacing: 2px;
     color: white;
+    font-weight: 600;
     font-family: 'Fredoka', sans-serif;
     font-size: 15px;
     padding: 5px 20px !important;
@@ -111,13 +112,14 @@ html body{
 .main-1{
     padding: 0px 100px;
     font-family: 'Fredoka', sans-serif;
+    text-align: justify;
 }
 
 .bluecontainer{
     background-color: white;
     height: auto;
     font-size: 17px;
-    padding:30px;
+    padding:40px;
     color: black;
     border-radius: 30px;
     background: radial-gradient(
@@ -132,6 +134,15 @@ html body{
       letter-spacing: 1px;
 }
 .heading{
+    color: white;  
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+}
+
+.heading2{
     color: white;  
     text-align: center;
     padding-top: 20px;
@@ -299,9 +310,7 @@ html body{
 }
 
 @media screen and (max-width:400px){
-    .iframer{
-        width: 200px;
-    }
+
     .banner-img{
         position: absolute;
         top: 25%;
@@ -328,6 +337,9 @@ html body{
     }
     .banner-btn{
         font-size: 1em;
+    }
+    .iframer{
+        width: 180px;
     }
 }
 @media screen and (max-width:361px){
