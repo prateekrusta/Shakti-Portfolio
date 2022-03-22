@@ -301,7 +301,7 @@ html body{
     .banner-img{
         position: absolute;
         top: 25%;
-        left: 54%;
+        left: 52%;
         width: 120px;
         transform: translate(-50%, -50%);
     }
@@ -355,7 +355,7 @@ html body{
     .banner-img{
         position: absolute;
         top: 25%;
-        left: 54%;
+        left: 52%;
         width: 100px;
         transform: translate(-50%, -50%);
     }
