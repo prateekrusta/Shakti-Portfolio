@@ -25,6 +25,7 @@
 
 html body{
     overflow-x: hidden;
+    background-color: #030303;
 }
 
 .navprat{
@@ -50,7 +51,6 @@ html body{
 
 .banner{
     height: 100vh;
-    background-color: #030303;
     position: relative;
     padding-top: 120px;
     border-radius: 0px 0px 0px 0px;
@@ -103,9 +103,12 @@ html body{
     font-family: 'Fredoka', sans-serif;
     letter-spacing: 2px;
 }
+.banner-btn a{
+    color: white;
+    text-decoration: none;
+}
 
 .main-1{
-    background-color: #030303;
     padding: 0px 100px;
     font-family: 'Fredoka', sans-serif;
 }
@@ -154,7 +157,6 @@ html body{
 
 .footer{
     padding: 50px 110px;
-    background-color: #030303;
 }
 
 .footer .heading{
@@ -165,13 +167,15 @@ html body{
 .footer-left{
     margin: auto 0;
 }
+.footer-right{
+    margin: auto 0;
+}
 
 .footer-right-inside{
     font-size: 20px;
 }
 
 .footer-right-inside i{
-    margin-right: 20px;
     color: dodgerblue;
 }
 
@@ -179,3 +183,202 @@ html body{
     text-decoration: none;
     color: white;
 }
+
+.iframer{
+    width: 500px;
+    height: 300px;
+}
+
+@media screen and (max-width:1025px) {
+    .banner-left{
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .banner-img{
+        position: absolute;
+        top: 35%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer .heading{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 3em;
+    }
+    .banner-btn{
+        font-size: 1.4em;
+    }
+    .footer-right-inside{
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .banner-left{
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .banner-img{
+        position: absolute;
+        top: 30%;
+        left: 52%;
+        width: 300px;
+        transform: translate(-50%, -50%);
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer .heading{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .iframer{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .banner-left{
+        position: absolute;
+        top: 65%;
+        left: 47.5%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .banner-img{
+        position: absolute;
+        top: 25%;
+        left: 54%;
+        width: 150px;
+        transform: translate(-50%, -50%);
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer .heading{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 1.6em;
+    }
+    .iframer{
+        width: 220px;
+    }
+    .banner-btn{
+        font-size: 1.2em;
+    }
+    .skill-btn{
+        width: 80%;
+    }
+    .main-1{
+        padding: 0 50px;
+    }
+    .footer{
+        padding: 50px 60px;
+    }
+    .footer-right-inside{
+        font-size: 1em;
+    }
+    .banner-left-2{
+        font-size: 40px;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width:400px){
+    .iframer{
+        width: 200px;
+    }
+    .banner-img{
+        position: absolute;
+        top: 25%;
+        left: 54%;
+        width: 120px;
+        transform: translate(-50%, -50%);
+    }
+    .banner-left-1{
+        font-size: 20px;
+        font-family: 'Fredoka', sans-serif;
+        margin: 10px 0;
+    }
+    
+    .banner-left-2{
+        font-size: 30px;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 10px 0;
+    }
+    
+    .banner-left-3{
+        font-size: 20px;
+        font-family: 'Fredoka', sans-serif;
+        margin: 10px 0;
+    }
+    .banner-btn{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width:361px){
+    .iframer{
+        width: 180px;
+    }
+    .footer .heading{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 1.4em;
+    }
+    .footer-right-inside{
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width:321px){
+    .iframer{
+        width: 140px;
+    }
+    .footer .heading{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 1em;
+    }
+    .footer-right-inside{
+        font-size: 0.7em;
+    }
+    .banner-img{
+        position: absolute;
+        top: 25%;
+        left: 54%;
+        width: 100px;
+        transform: translate(-50%, -50%);
+    }
+    .banner-left-1{
+        font-size: 18px;
+        font-family: 'Fredoka', sans-serif;
+        margin: 10px 0;
+    }
+    
+    .banner-left-2{
+        font-size: 25px;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 10px 0;
+    }
+    
+    .banner-left-3{
+        font-size: 18px;
+        font-family: 'Fredoka', sans-serif;
+        margin: 10px 0;
+    }
+    .banner-btn{
+        font-size: 0.8em;
+    }
+}
+
+
